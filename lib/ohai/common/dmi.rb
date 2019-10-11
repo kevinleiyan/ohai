@@ -74,7 +74,7 @@ module Ohai
 
       # list of IDs to collect from config or default to a sane list that prunes
       # away some of the less useful IDs
-      ID_TO_CAPTURE = [ 0, 1, 2, 3, 4, 6, 11 ].freeze
+      ID_TO_CAPTURE = [ 0, 1, 2, 3, 4, 6, 11 ]
 
       # the whitelisted DMI IDs. This is combination of the defaults + any additional
       # IDs defined in the :additional_dmi_ids config
